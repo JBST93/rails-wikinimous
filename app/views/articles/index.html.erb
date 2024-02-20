@@ -1,0 +1,5 @@
+<h1>Listing of all the articles</h1>
+
+<% @articles.each do |article|  %>
+<li><%= article.title%> by <%= article.author%><br><%= article.content%></li>
+<% end %>
